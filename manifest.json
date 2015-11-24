@@ -1,0 +1,25 @@
+﻿{
+    "name": "右クリックメニュー許可",
+    "version": "0.1",
+    "manifest_version": 2,
+    "description": "右クリックメニュー禁止の解除",
+    "icons": {
+        "128": "icon/icon.png"
+    },
+    "permissions": [
+        
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*/*"
+            ],
+            "js": [
+                "execScript.js"
+                // 右クリックメニュー禁止の解除
+                ,"allow-context-menu.js"
+            ],
+            "all_frames": true
+        }
+    ]
+}
