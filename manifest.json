@@ -1,8 +1,8 @@
 ﻿{
-    "name": "右クリックメニュー許可",
+    "name": "各種ページ操作禁止の解除",
     "version": "0.1",
     "manifest_version": 2,
-    "description": "右クリックメニュー禁止の解除",
+    "description": "右クリックメニュー・テキスト選択禁止の解除",
     "icons": {
         "128": "icon/icon.png"
     },
@@ -18,6 +18,8 @@
                 "execScript.js"
                 // 右クリックメニュー禁止の解除
                 ,"allow-context-menu.js"
+                // テキスト選択禁止の解除
+                ,"allow-text-select.js"
             ],
             "all_frames": true
         }
