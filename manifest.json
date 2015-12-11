@@ -22,6 +22,8 @@
                 ,"allow-text-select.js"
                 // ドラッグ禁止の解除
                 ,"allow-drag-start.js"
+                // ホイールクリック禁止の解除
+                ,"allow-wheel-scroll.js"
             ],
             "all_frames": true
         }
