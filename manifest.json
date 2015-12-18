@@ -24,6 +24,8 @@
                 ,"allow-drag-start.js"
                 // ホイールクリック禁止の解除
                 ,"allow-wheel-scroll.js"
+                // コピー禁止の解除
+                ,"allow-copy.js"
             ],
             "css": [
                 // テキスト選択禁止の解除
