@@ -1,0 +1,5 @@
+
+html body {
+    -webkit-user-select: initial;
+    user-select: initial;
+}

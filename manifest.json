@@ -25,6 +25,10 @@
                 // ホイールクリック禁止の解除
                 ,"allow-wheel-scroll.js"
             ],
+            "css": [
+                // テキスト選択禁止の解除
+                "allow-text-select.css"
+            ],
             "all_frames": true
         }
     ]
