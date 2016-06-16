@@ -1,5 +1,5 @@
 
 html body {
-    -webkit-user-select: initial;
-    user-select: initial;
+    -webkit-user-select: initial !important;
+    user-select: initial !important;
 }
