@@ -18,19 +18,19 @@
 			"js": [
 				"execScript.js"
 				// 右クリックメニュー禁止の解除
-				,"allow-context-menu.js"
+				,"js/allow-context-menu.js"
 				// テキスト選択禁止の解除
-				,"allow-text-select.js"
+				,"js/allow-text-select.js"
 				// ドラッグ禁止の解除
-				,"allow-drag-start.js"
+				,"js/allow-drag-start.js"
 				// ホイールクリック禁止の解除
-				,"allow-wheel-scroll.js"
+				,"js/allow-wheel-scroll.js"
 				// コピー禁止の解除
-				,"allow-copy.js"
+				,"js/allow-copy.js"
 			],
 			"css": [
 				// テキスト選択禁止の解除
-				"allow-text-select.css"
+				"css/allow-text-select.css"
 			],
 			"all_frames": true
 		}
