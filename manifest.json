@@ -1,8 +1,8 @@
 ﻿{
-	"name": "各種ページ操作禁止の解除",
+	"name": "Unlock page protection",
 	"version": "0.1",
 	"manifest_version": 2,
-	"description": "右クリックメニュー・テキスト選択・ドラッグ禁止の解除",
+	"description": "各種ページ操作禁止の解除: 右クリックメニュー・テキスト選択・ドラッグなど",
 	"permissions": [
 		"activeTab"
 	],
