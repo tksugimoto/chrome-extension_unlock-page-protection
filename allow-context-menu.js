@@ -1,4 +1,4 @@
 execScript(function (){
-    document.oncontextmenu = null;
-    document.body.oncontextmenu = null;
+	document.oncontextmenu = null;
+	document.body.oncontextmenu = null;
 });

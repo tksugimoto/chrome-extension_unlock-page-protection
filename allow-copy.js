@@ -1,4 +1,4 @@
 execScript(function (){
-    document.oncopy = null;
-    document.body.oncopy = null;
+	document.oncopy = null;
+	document.body.oncopy = null;
 });

@@ -1,42 +1,42 @@
 ﻿{
-    "name": "各種ページ操作禁止の解除",
-    "version": "0.1",
-    "manifest_version": 2,
-    "description": "右クリックメニュー・テキスト選択・ドラッグ禁止の解除",
-    "icons": {
-        "128": "icon/icon.png"
-    },
-    "permissions": [
-        "activeTab"
-    ],
+	"name": "各種ページ操作禁止の解除",
+	"version": "0.1",
+	"manifest_version": 2,
+	"description": "右クリックメニュー・テキスト選択・ドラッグ禁止の解除",
+	"icons": {
+		"128": "icon/icon.png"
+	},
+	"permissions": [
+		"activeTab"
+	],
 	"browser_action": {
 		"default_icon": "icon/icon.png",
 		"default_title": "強制的にすべての禁止を解除",
 		"default_popup": "popup.html"
 	},
-    "content_scripts": [
-        {
-            "matches": [
-                "*://*/*"
-            ],
-            "js": [
-                "execScript.js"
-                // 右クリックメニュー禁止の解除
-                ,"allow-context-menu.js"
-                // テキスト選択禁止の解除
-                ,"allow-text-select.js"
-                // ドラッグ禁止の解除
-                ,"allow-drag-start.js"
-                // ホイールクリック禁止の解除
-                ,"allow-wheel-scroll.js"
-                // コピー禁止の解除
-                ,"allow-copy.js"
-            ],
-            "css": [
-                // テキスト選択禁止の解除
-                "allow-text-select.css"
-            ],
-            "all_frames": true
-        }
-    ]
+	"content_scripts": [
+		{
+			"matches": [
+				"*://*/*"
+			],
+			"js": [
+				"execScript.js"
+				// 右クリックメニュー禁止の解除
+				,"allow-context-menu.js"
+				// テキスト選択禁止の解除
+				,"allow-text-select.js"
+				// ドラッグ禁止の解除
+				,"allow-drag-start.js"
+				// ホイールクリック禁止の解除
+				,"allow-wheel-scroll.js"
+				// コピー禁止の解除
+				,"allow-copy.js"
+			],
+			"css": [
+				// テキスト選択禁止の解除
+				"allow-text-select.css"
+			],
+			"all_frames": true
+		}
+	]
 }

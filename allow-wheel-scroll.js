@@ -1,3 +1,3 @@
 execScript(function (){
-    document.onmousedown = null;
+	document.onmousedown = null;
 });
