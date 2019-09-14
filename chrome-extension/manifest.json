@@ -15,6 +15,9 @@
 			"matches": [
 				"*://*/*"
 			],
+			"exclude_matches": [
+				"https://calendar.google.com/*"
+			],
 			"js": [
 				"execScript.js"
 				// 右クリックメニュー禁止の解除
